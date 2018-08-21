@@ -8,10 +8,11 @@
   },
   "main": "src/CustomComponents.js",
   "dependencies": {
+    "create-react-class": "15.6.0",
     "fbjs": "~0.8.9",
     "immutable": "~3.7.6",
-    "create-react-class": "15.6.0",
     "prop-types": "^15.5.10",
+    "react-native-iphone-x-helper": "^1.0.3",
     "react-timer-mixin": "^0.13.2",
     "rebound": "^0.0.13"
   },

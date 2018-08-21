@@ -30,12 +30,12 @@ import {
   I18nManager,
   PixelRatio,
 } from 'react-native';
-
+import { ifIphoneX } from 'react-native-iphone-x-helper'
 var buildStyleInterpolator = require('./buildStyleInterpolator');
 var merge = require('./merge');
 
 var SCREEN_WIDTH = Dimensions.get('window').width;
-var NAV_BAR_HEIGHT = 44;
+var NAV_BAR_HEIGHT = ifIphoneX(66, 44);
 var STATUS_BAR_HEIGHT = 20;
 var NAV_HEIGHT = NAV_BAR_HEIGHT + STATUS_BAR_HEIGHT;
 
